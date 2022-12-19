@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+}
+
+/* main body */
+
+body {
+  margin-top: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #253144;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* typography */
+
+.green-txt {
+  color: #4adf86;
+}
+
+.gray-subtitle-txt {
+  color: #d5d4d8;
+  margin-top: 0.5em;
+}
+
+/* button styling */
+
+.generate-btn {
+  font-size: 0.8em;
+  margin-top: 5em;
+  margin-right: 2em;
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+  color: white;
+  background-color: #10b981;
+}
+
+/* gray line seperator */
+
+.gray-line-brk {
+  border: 1px solid #2f3e53;
+  margin: 2.5em 0;
+}
+
+/* password boxes */
+
+.pass-container {
+  display: flex;
+}
+
+.password-box {
+  width: 250px;
+  height: 50px;
+  margin-right: 1em;
+  background: #2d3d55;
+  border-radius: 6px;
+  color: rgb(26, 204, 26);
+  text-align: center;
+  line-height: 50px;
+}
